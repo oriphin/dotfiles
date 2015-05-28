@@ -25,7 +25,7 @@ alias f='open -a Finder ./'
 mkcd () { mkdir -p "$1" && cd "$1"; }
 
 # load kvm
-[ -s "/Users/troyschuetrumpf/.kre/kvm/kvm.sh" ] && . "/Users/troyschuetrumpf/.kre/kvm/kvm.sh"
+[ -s "~/.kre/kvm/kvm.sh" ] && . "~/.kre/kvm/kvm.sh"
 
 # Quickly knockup a new module directory
 supts() {mkdir $1 && mkdir "$1/Templates" && mkdir "$1/Controllers" && mkdir "$1/Services" && touch "$1/Module.ts"}

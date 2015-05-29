@@ -1,6 +1,3 @@
-source $ZSH/oh-my-zsh.sh
-source ~/.secrets
-
 # Env Vars
 export ZSH=$HOME/.oh-my-zsh
 export JAVA_HOME=$(/usr/libexec/java_home)
@@ -18,6 +15,9 @@ ZSH_THEME="robbyrussell"
 
 # load plugins
 plugins=(git vagrant sublime aws)
+
+source $ZSH/oh-my-zsh.sh
+source ~/.secrets
 
 # User configuration
 alias ls='ls -aFhlG'

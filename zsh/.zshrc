@@ -2,12 +2,12 @@
 export ZSH=$HOME/.oh-my-zsh
 export JAVA_HOME=$(/usr/libexec/java_home)
 export EC2_HOME=/usr/local/ec2/ec2-api-tools-1.7.3.2
+export GOROOT=/usr/local/go
+export GOPATH=~/dev/go
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/bin"
 export PATH="$PATH:$HOME/.rvm/bin:$GOROOT/bin:$GOPATH/bin"
 export PATH="$PATH:$EC2_HOME/bin"
 export PATH="$PATH:/Library/Frameworks/Python.framework/Versions/2.7/bin/"
-export GOROOT=/usr/local/go
-export GOPATH=~/dev/go
 export MONO_MANAGED_WATCHER=disabled #resolved some mono build issues
 
 # Set name of the theme to load.
